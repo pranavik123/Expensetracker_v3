@@ -49,8 +49,8 @@ function searchExpenseTitle() {
             <td>${expense.amount}</td>
             <td>${expense.date}</td>
             <td>${expense.note}</td>
-            <td><button><i class="material-icons">delete</i></button></td>
-            <td><button><i class="material-icons">edit</i></button></td>
+            <td><button style="background-color:#4CAF50"><i class="material-icons">delete</i></button></td>
+            <td><button style="background-color:#e90505"><i class="material-icons">edit</i></button></td>
         `;
     });
     generateExpenseChart(filteredExpenses);
